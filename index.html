@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Web</title>
+    <!-- CSS External -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- CSS Bootsrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark">
+    <!-- Header -->
+    <!-- Navbar Bootsrap -->
+    <nav class="navbar navbar-expand-lg bg-body-ertiary bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-white" href="#">Angga <span class="text-danger fw-bold" >Aditya</span></a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-lg-0 nav-underline">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Skills</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">CV</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar Bootsrap -->
+    <div class="content">
+        <div class="img">
+            <img src="img/adit.png" alt="Angga Aditya">
+        </div>
+        <div class="content-tittle">
+            <h3 class="tittle-h3 text-danger">Hello i'am Angga Aditya</h3>
+            <h1 class="tittle-h1">Front End Developer</h1>
+            <p class="tittle-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos reiciendis voluptatum maiores nesciunt ipsam magnam, nobis expedita recusandae laudantium.</p>
+            <button type="button" class="btn btn-danger" id="btnAbout" onmouseover="ubahBentuk()" onmouseout="ubahBentuk2()">About Me</button>
+            <br><br>
+        </div>
+    </div>
+
+    <!-- Project -->
+    <main class="project-1 d-flex flex-column bg-light">
+      <div class="content-p1 d-flex justify-content-center mt-1">
+        <div class="content-box-1 border border-danger mx-3">
+          <img src="img/project1.png" alt="project Portofolio" class="img-project-1">
+          <p class="description-project-1 text-dark fw-bold text-center mt-2">Ini adalah project website tentang wisata yang ada di daerah tangerang</p>
+        </div>
+        <div class="content-box-1 border border-danger mx-3">
+          <img src="img/project1.png" alt="project Portofolio" class="img-project-1">
+          <p class="description-project-1 text-dark fw-bold text-center mt-2">Ini adalah project website tentang wisata yang ada di daerah tangerang</p>
+        </div>
+        <div class="content-box-1 border border-danger mx-3">
+          <img src="img/project1.png" alt="project Portofolio" class="img-project-1">
+          <p class="description-project-1 text-dark fw-bold text-center mt-2">Ini adalah project website tentang wisata yang ada di daerah tangerang</p>
+        </div>
+      </div>
+      <div class="content-p2 d-flex justify-content-center mt-1">
+        <div class="content-box-1 border border-danger mx-3">
+          <img src="img/project1.png" alt="project Portofolio" class="img-project-1">
+          <p class="description-project-1 text-dark fw-bold text-center mt-2">Ini adalah project website tentang wisata yang ada di daerah tangerang</p>
+        </div>
+        <div class="content-box-1 border border-danger mx-3">
+          <img src="img/project1.png" alt="project Portofolio" class="img-project-1">
+          <p class="description-project-1 text-dark fw-bold text-center mt-2">Ini adalah project website tentang wisata yang ada di daerah tangerang</p>
+        </div>
+      </div>
+      <br><br><br>
+    </main>
+    <!-- End Project -->
+
+    <!-- Skills -->
+    <div class="container-skill container">
+      <div class="skills-1 text-white">
+        <h1 class="fs-3">HTML & CSS</h1>
+        <div class="bar-skill bg-light col-md-8 offset-md-2 mb-4">
+          <div class="bar-html-css bg-danger"></div>
+        </div>
+      </div>
+      <div class="skills-1 text-white">
+        <h1 class="fs-3">Javacsript</h1>
+        <div class="bar-skill bg-light col-md-8 offset-md-2 mb-4">
+          <div class="bar-js bg-danger"></div>
+        </div>
+      </div>
+      <div class="skills-1 text-white">
+        <h1 class="fs-3">PHP</h1>
+        <div class="bar-skill bg-light col-md-8 offset-md-2 mb-4">
+          <div class="bar-php bg-danger"></div>
+        </div>
+      </div>
+      <div class="skills-1 text-white">
+        <h1 class="fs-3">Linux</h1>
+        <div class="bar-skill bg-light col-md-8 offset-md-2 mb-4">
+          <div class="bar-linux bg-danger"></div>
+        </div>
+      </div>
+      <div class="skills-1 text-white">
+        <h1 class="fs-3">Microsoft Office</h1>
+        <div class="bar-skill bg-light col-md-8 offset-md-2 mb-4">
+          <div class="bar-office bg-danger"></div>
+        </div>
+      </div>
+      <div class="skills-1 text-white">
+        <h1 class="fs-3">Hardware</h1>
+        <div class="bar-skill bg-light col-md-8 offset-md-2 mb-4">
+          <div class="bar-hardware bg-danger"></div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <br><br><br>
+    <!-- End Skills -->
+    <!-- Footer -->
+    <footer>
+      <p class="text-white ms-auto">
+        &copy - Angga Aditya . All right reversed
+      </p>
+    </footer>
+    <!-- End Footer -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+    <script src="js/main.js"></script>
+  </body>
+</html>
